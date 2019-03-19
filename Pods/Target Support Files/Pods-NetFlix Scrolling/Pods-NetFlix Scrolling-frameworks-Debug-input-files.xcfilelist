@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-NetFlix Scrolling/Pods-NetFlix Scrolling-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CardSlider/CardSlider.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

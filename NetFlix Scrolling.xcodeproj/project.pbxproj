@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ADFBD0CB0A20EF7A1F7760B /* Pods_NetFlix_Scrolling.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBADA3B66EAECE4818E8A8C8 /* Pods_NetFlix_Scrolling.framework */; };
+		89BF84012241476B001BA0F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF84002241476B001BA0F4 /* AppDelegate.swift */; };
+		89BF84032241476B001BA0F4 /* NetflixTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF84022241476B001BA0F4 /* NetflixTableViewController.swift */; };
+		89BF84062241476B001BA0F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF84042241476B001BA0F4 /* Main.storyboard */; };
+		89BF84082241476D001BA0F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BF84072241476D001BA0F4 /* Assets.xcassets */; };
+		89BF840B2241476D001BA0F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BF84092241476D001BA0F4 /* LaunchScreen.storyboard */; };
+		89BF841722414A6B001BA0F4 /* CategoryRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF841622414A6B001BA0F4 /* CategoryRow.swift */; };
+		89BF841B224159C6001BA0F4 /* CardsliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BF841A224159C6001BA0F4 /* CardsliderViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8203017E7119F68BB6F98123 /* Pods-NetFlix Scrolling.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetFlix Scrolling.release.xcconfig"; path = "Target Support Files/Pods-NetFlix Scrolling/Pods-NetFlix Scrolling.release.xcconfig"; sourceTree = "<group>"; };
+		89BF83FD2241476B001BA0F4 /* NetFlix Scrolling.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetFlix Scrolling.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89BF84002241476B001BA0F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89BF84022241476B001BA0F4 /* NetflixTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetflixTableViewController.swift; sourceTree = "<group>"; };
+		89BF84052241476B001BA0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89BF84072241476D001BA0F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89BF840A2241476D001BA0F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89BF840C2241476D001BA0F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BF841622414A6B001BA0F4 /* CategoryRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryRow.swift; sourceTree = "<group>"; };
+		89BF841A224159C6001BA0F4 /* CardsliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsliderViewController.swift; sourceTree = "<group>"; };
+		B478568DCD8545F19773FABC /* Pods-NetFlix Scrolling.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetFlix Scrolling.debug.xcconfig"; path = "Target Support Files/Pods-NetFlix Scrolling/Pods-NetFlix Scrolling.debug.xcconfig"; sourceTree = "<group>"; };
+		BBADA3B66EAECE4818E8A8C8 /* Pods_NetFlix_Scrolling.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetFlix_Scrolling.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89BF83FA2241476B001BA0F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ADFBD0CB0A20EF7A1F7760B /* Pods_NetFlix_Scrolling.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89BF83F42241476B001BA0F4 = {
+			isa = PBXGroup;
+			children = (
+				89BF83FF2241476B001BA0F4 /* NetFlix Scrolling */,
+				89BF83FE2241476B001BA0F4 /* Products */,
+				E01BAE2EEB71968394A6FC3D /* Pods */,
+				E2CD5EF40B986A639CA6CA79 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89BF83FE2241476B001BA0F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89BF83FD2241476B001BA0F4 /* NetFlix Scrolling.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89BF83FF2241476B001BA0F4 /* NetFlix Scrolling */ = {
+			isa = PBXGroup;
+			children = (
+				89BF84002241476B001BA0F4 /* AppDelegate.swift */,
+				89BF84022241476B001BA0F4 /* NetflixTableViewController.swift */,
+				89BF841622414A6B001BA0F4 /* CategoryRow.swift */,
+				89BF841A224159C6001BA0F4 /* CardsliderViewController.swift */,
+				89BF84042241476B001BA0F4 /* Main.storyboard */,
+				89BF84072241476D001BA0F4 /* Assets.xcassets */,
+				89BF84092241476D001BA0F4 /* LaunchScreen.storyboard */,
+				89BF840C2241476D001BA0F4 /* Info.plist */,
+			);
+			path = "NetFlix Scrolling";
+			sourceTree = "<group>";
+		};
+		E01BAE2EEB71968394A6FC3D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B478568DCD8545F19773FABC /* Pods-NetFlix Scrolling.debug.xcconfig */,
+				8203017E7119F68BB6F98123 /* Pods-NetFlix Scrolling.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2CD5EF40B986A639CA6CA79 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBADA3B66EAECE4818E8A8C8 /* Pods_NetFlix_Scrolling.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89BF83FC2241476B001BA0F4 /* NetFlix Scrolling */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89BF840F2241476D001BA0F4 /* Build configuration list for PBXNativeTarget "NetFlix Scrolling" */;
+			buildPhases = (
+				2B6F84F92DF4D56EC68B868D /* [CP] Check Pods Manifest.lock */,
+				89BF83F92241476B001BA0F4 /* Sources */,
+				89BF83FA2241476B001BA0F4 /* Frameworks */,
+				89BF83FB2241476B001BA0F4 /* Resources */,
+				EFD8F360A28D158819613A51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NetFlix Scrolling";
+			productName = "NetFlix Scrolling";
+			productReference = 89BF83FD2241476B001BA0F4 /* NetFlix Scrolling.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89BF83F52241476B001BA0F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Erick Alcantara";
+				TargetAttributes = {
+					89BF83FC2241476B001BA0F4 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 89BF83F82241476B001BA0F4 /* Build configuration list for PBXProject "NetFlix Scrolling" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89BF83F42241476B001BA0F4;
+			productRefGroup = 89BF83FE2241476B001BA0F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89BF83FC2241476B001BA0F4 /* NetFlix Scrolling */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89BF83FB2241476B001BA0F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BF840B2241476D001BA0F4 /* LaunchScreen.storyboard in Resources */,
+				89BF84082241476D001BA0F4 /* Assets.xcassets in Resources */,
+				89BF84062241476B001BA0F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B6F84F92DF4D56EC68B868D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetFlix Scrolling-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFD8F360A28D158819613A51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetFlix Scrolling/Pods-NetFlix Scrolling-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NetFlix Scrolling/Pods-NetFlix Scrolling-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NetFlix Scrolling/Pods-NetFlix Scrolling-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89BF83F92241476B001BA0F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BF84032241476B001BA0F4 /* NetflixTableViewController.swift in Sources */,
+				89BF841B224159C6001BA0F4 /* CardsliderViewController.swift in Sources */,
+				89BF841722414A6B001BA0F4 /* CategoryRow.swift in Sources */,
+				89BF84012241476B001BA0F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		89BF84042241476B001BA0F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BF84052241476B001BA0F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89BF84092241476D001BA0F4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89BF840A2241476D001BA0F4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89BF840D2241476D001BA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89BF840E2241476D001BA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89BF84102241476D001BA0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B478568DCD8545F19773FABC /* Pods-NetFlix Scrolling.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RHF3K9CK6;
+				INFOPLIST_FILE = "NetFlix Scrolling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.NetFlix-Scrolling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89BF84112241476D001BA0F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8203017E7119F68BB6F98123 /* Pods-NetFlix Scrolling.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4RHF3K9CK6;
+				INFOPLIST_FILE = "NetFlix Scrolling/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "edu.cuny.bmcc.NetFlix-Scrolling";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89BF83F82241476B001BA0F4 /* Build configuration list for PBXProject "NetFlix Scrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BF840D2241476D001BA0F4 /* Debug */,
+				89BF840E2241476D001BA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89BF840F2241476D001BA0F4 /* Build configuration list for PBXNativeTarget "NetFlix Scrolling" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89BF84102241476D001BA0F4 /* Debug */,
+				89BF84112241476D001BA0F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89BF83F52241476B001BA0F4 /* Project object */;
+}
